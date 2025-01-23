@@ -20,31 +20,48 @@ This project includes a Makefile to simplify the build process. The Makefile sup
 To compile the program, run:
 
 ~$ make
+
 This will:
 
 Compile the bst.c source file with the following flags
+
 -Wall:     Enables most common warnings.
+
 -Wextra:   Enables additional, stricter warnings.
+
 -pedantic: Enforces strict adherence to the C standard.
+
 -std=c99:  Specifies the C99 standard for compilation.
+
 Generate the executable named bst.
 
 2. Run the Program
-After building the project, you can run the program with
+
+3. After building the project, you can run the program with
+
 ~$ make run
+
 This will execute the bst binary and display the output.
 
-3. Clean the Build Files
-To clean up the compiled files and binaries, run
+5. Clean the Build Files
+
+6. To clean up the compiled files and binaries, run
 ~$ make clean
+
 This will:
+
 Remove the bst executable.
+
 Delete any intermediate object files (.o).
 
 File Structure
+
 bst.c       # Source code of the Binary Search Tree implementation
+
 Makefile    # Automates the build, run, and clean processes
+
 README.md   # Documentation for the project
 
 Contributing
+
 Feel free to fork this repository, make improvements, and submit a pull request.
