@@ -42,11 +42,9 @@ Remove the bst executable.
 Delete any intermediate object files (.o).
 
 File Structure:
-~$ tree
-.
-├── bst.c       # Source code of the Binary Search Tree implementation
-├── Makefile    # Automates the build, run, and clean processes
-└── README.md   # Documentation for the project
+bst.c       # Source code of the Binary Search Tree implementation
+Makefile    # Automates the build, run, and clean processes
+README.md   # Documentation for the project
 
 Contributing:
 Feel free to fork this repository, make improvements, and submit a pull request.
